@@ -15,7 +15,7 @@ $('#home a[href*="#"]').on('click', function(e) {
 
 //Resume download hyperlink
 function download_resume() {
-    window.location.href = "https://drive.google.com/uc?export=download&id=1-WEmFIYs7h3XELKCmPLkHVRnE9gGJVya";
+    window.location.href = "https://drive.google.com/uc?export=download&id=1FUbL694H-q-Vdt-7KgxR89yQmMytiQsI";
 }
 
 
