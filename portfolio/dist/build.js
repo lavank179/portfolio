@@ -25007,7 +25007,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Contact_vue__ = __webpack_require__(144);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_bbf026c0_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Contact_vue__ = __webpack_require__(439);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_67277cc8_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Contact_vue__ = __webpack_require__(439);
 function injectStyle (ssrContext) {
   __webpack_require__(391)
 }
@@ -25022,12 +25022,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-bbf026c0"
+var __vue_scopeId__ = "data-v-67277cc8"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Contact_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_bbf026c0_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Contact_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_67277cc8_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Contact_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -25048,7 +25048,7 @@ var content = __webpack_require__(392);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(26)("2680a3c2", content, true, {});
+var update = __webpack_require__(26)("b449cf14", content, true, {});
 
 /***/ }),
 /* 392 */
@@ -25059,7 +25059,7 @@ exports = module.exports = __webpack_require__(25)(false);
 
 
 // module
-exports.push([module.i, "#up-arrow[data-v-bbf026c0]{width:25px;height:40px;-webkit-animation:action-data-v-bbf026c0 1s infinite alternate;animation:action-data-v-bbf026c0 1s infinite alternate;transition:.3s}#up-arrow[data-v-bbf026c0]:hover{opacity:.7}@-webkit-keyframes action-data-v-bbf026c0{0%{transform:translateY(0)}to{transform:translateY(-15px)}}h3 a[data-v-bbf026c0]{text-decoration:none;color:#8a2be2}", ""]);
+exports.push([module.i, "#up-arrow[data-v-67277cc8]{width:25px;height:40px;-webkit-animation:action-data-v-67277cc8 1s infinite alternate;animation:action-data-v-67277cc8 1s infinite alternate;transition:.3s}#up-arrow[data-v-67277cc8]:hover{opacity:.7}@-webkit-keyframes action-data-v-67277cc8{0%{transform:translateY(0)}to{transform:translateY(-15px)}}h3 a[data-v-67277cc8]{text-decoration:none;color:#8a2be2}", ""]);
 
 // exports
 
@@ -27674,7 +27674,7 @@ module.exports = function isAxiosError(payload) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{attrs:{"align":"center","id":"contact"}},[_c('br'),_c('br'),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"lg":"4","md":"4","sm":"1","cols":"1"}}),_vm._v(" "),_c('v-col',{attrs:{"lg":"4","md":"4","sm":"10","cols":"10"}},[_c('div',{attrs:{"id":"content"}},[_c('v-card',{attrs:{"elevation":_vm.e1},on:{"mouseenter":function($event){_vm.e1 = '6'},"mouseleave":function($event){_vm.e1 = ''}}},[_c('br'),_vm._v(" "),_c('h3',[_c('a',{attrs:{"href":"tel:+8072097287"}},[_vm._v(" +91 80720 97287")]),_vm._v(" "),_c('i',{staticClass:"fa fa-phone-alt fa-sm"})]),_vm._v(" "),_c('h3',[_c('a',{attrs:{"href":"mailto:chlavankumar179@gmail.com"}},[_vm._v("\n              chlavankumar179@gmail.com")]),_vm._v(" "),_c('i',{staticClass:"fa fa-envelope fa-sm"})]),_vm._v(" "),_c('br'),_vm._v(" "),_c('h3',[_vm._v("For any other queries, "),_c('i',{staticClass:"far fa-hand-point-down fa-lg"})])]),_vm._v(" "),_c('br'),_c('br'),_vm._v(" "),_c('v-card',{attrs:{"elevation":_vm.e2},on:{"mouseenter":function($event){_vm.e2 = '6'},"mouseleave":function($event){_vm.e2 = ''}}},[_c('br'),_vm._v(" "),_c('form',{staticClass:"mx-3",attrs:{"id":"contact-form"}},[_c('v-text-field',{attrs:{"error-messages":_vm.nameErrors,"counter":12,"label":"Name","required":"","outlined":"","color":"purple darken-1","dense":""},on:{"input":function($event){return _vm.$v.name.$touch()},"blur":function($event){return _vm.$v.name.$touch()}},model:{value:(_vm.name),callback:function ($$v) {_vm.name=$$v},expression:"name"}}),_vm._v(" "),_c('v-text-field',{attrs:{"error-messages":_vm.emailErrors,"label":"Email","required":"","outlined":"","color":"purple darken-1","dense":""},on:{"input":function($event){return _vm.$v.email.$touch()},"blur":function($event){return _vm.$v.email.$touch()}},model:{value:(_vm.email),callback:function ($$v) {_vm.email=$$v},expression:"email"}}),_vm._v(" "),_c('v-textarea',{attrs:{"error-messages":_vm.messageErrors,"counter":150,"label":"Message","required":"","outlined":"","color":"purple darken-1","dense":""},on:{"input":function($event){return _vm.$v.message.$touch()},"blur":function($event){return _vm.$v.message.$touch()}},model:{value:(_vm.message),callback:function ($$v) {_vm.message=$$v},expression:"message"}}),_vm._v(" "),_c('v-btn',{attrs:{"color":"purple darken-1","disabled":_vm.$v.$invalid},on:{"click":_vm.submit}},[_vm._v("submit")]),_vm._v(" "),_c('v-btn',{attrs:{"color":"orange lighten-3"},on:{"click":_vm.reset}},[_vm._v("Reset")])],1),_vm._v(" "),_c('v-overlay',{attrs:{"value":_vm.overlay,"absolute":_vm.absolute}},[_c('v-progress-circular',{attrs:{"indeterminate":"","color":"purple"}})],1),_vm._v(" "),_c('br')],1),_vm._v(" "),_c('v-snackbar',{attrs:{"timeout":_vm.timeout},scopedSlots:_vm._u([{key:"action",fn:function(ref){
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{attrs:{"align":"center","id":"contact"}},[_c('br'),_c('br'),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"lg":"4","md":"4","sm":"1","cols":"1"}}),_vm._v(" "),_c('v-col',{attrs:{"lg":"4","md":"4","sm":"10","cols":"10"}},[_c('div',{attrs:{"id":"content"}},[_c('v-card',{attrs:{"elevation":_vm.e1},on:{"mouseenter":function($event){_vm.e1 = '6'},"mouseleave":function($event){_vm.e1 = ''}}},[_c('br'),_vm._v(" "),_c('h3',[_c('a',{attrs:{"href":"tel:+918072097287"}},[_vm._v(" +91 80720 97287")]),_vm._v(" "),_c('i',{staticClass:"fa fa-phone-alt fa-sm"})]),_vm._v(" "),_c('h3',[_c('a',{attrs:{"href":"mailto:chlavankumar179@gmail.com"}},[_vm._v("\n              chlavankumar179@gmail.com")]),_vm._v(" "),_c('i',{staticClass:"fa fa-envelope fa-sm"})]),_vm._v(" "),_c('br'),_vm._v(" "),_c('h3',[_vm._v("For any other queries, "),_c('i',{staticClass:"far fa-hand-point-down fa-lg"})])]),_vm._v(" "),_c('br'),_c('br'),_vm._v(" "),_c('v-card',{attrs:{"elevation":_vm.e2},on:{"mouseenter":function($event){_vm.e2 = '6'},"mouseleave":function($event){_vm.e2 = ''}}},[_c('br'),_vm._v(" "),_c('form',{staticClass:"mx-3",attrs:{"id":"contact-form"}},[_c('v-text-field',{attrs:{"error-messages":_vm.nameErrors,"counter":12,"label":"Name","required":"","outlined":"","color":"purple darken-1","dense":""},on:{"input":function($event){return _vm.$v.name.$touch()},"blur":function($event){return _vm.$v.name.$touch()}},model:{value:(_vm.name),callback:function ($$v) {_vm.name=$$v},expression:"name"}}),_vm._v(" "),_c('v-text-field',{attrs:{"error-messages":_vm.emailErrors,"label":"Email","required":"","outlined":"","color":"purple darken-1","dense":""},on:{"input":function($event){return _vm.$v.email.$touch()},"blur":function($event){return _vm.$v.email.$touch()}},model:{value:(_vm.email),callback:function ($$v) {_vm.email=$$v},expression:"email"}}),_vm._v(" "),_c('v-textarea',{attrs:{"error-messages":_vm.messageErrors,"counter":150,"label":"Message","required":"","outlined":"","color":"purple darken-1","dense":""},on:{"input":function($event){return _vm.$v.message.$touch()},"blur":function($event){return _vm.$v.message.$touch()}},model:{value:(_vm.message),callback:function ($$v) {_vm.message=$$v},expression:"message"}}),_vm._v(" "),_c('v-btn',{attrs:{"color":"purple darken-1","disabled":_vm.$v.$invalid},on:{"click":_vm.submit}},[_vm._v("submit")]),_vm._v(" "),_c('v-btn',{attrs:{"color":"orange lighten-3"},on:{"click":_vm.reset}},[_vm._v("Reset")])],1),_vm._v(" "),_c('v-overlay',{attrs:{"value":_vm.overlay,"absolute":_vm.absolute}},[_c('v-progress-circular',{attrs:{"indeterminate":"","color":"purple"}})],1),_vm._v(" "),_c('br')],1),_vm._v(" "),_c('v-snackbar',{attrs:{"timeout":_vm.timeout},scopedSlots:_vm._u([{key:"action",fn:function(ref){
 var attrs = ref.attrs;
 return [_c('v-btn',_vm._b({attrs:{"color":"blue","text":""},on:{"click":function($event){_vm.snackbar = false}}},'v-btn',attrs,false),[_vm._v("\n              Close\n            ")])]}}]),model:{value:(_vm.snackbar),callback:function ($$v) {_vm.snackbar=$$v},expression:"snackbar"}},[_vm._v("\n          "+_vm._s(_vm.text)+"\n\n          ")])],1)]),_vm._v(" "),_c('v-col',{attrs:{"lg":"4","md":"4","sm":"1","cols":"1"}})],1),_vm._v(" "),_c('br'),_c('br'),_c('br'),_vm._v(" "),_c('div',{attrs:{"align":"center"}},[_c('v-img',{directives:[{name:"smooth-scroll",rawName:"v-smooth-scroll"}],attrs:{"src":"https://img.icons8.com/fluent/48/000000/long-arrow-up.png","alt":"fluent-down-arrow","id":"up-arrow","href":"#Home"}})],1)],1)}
 var staticRenderFns = []
