@@ -1,4 +1,4 @@
-location.replace('https://lavankumar.vercel.app/portfolio/');
+window.location.href = 'https://lavankumar.vercel.app/portfolio/';
 
 //smooth scroll onclick nav-link
 $('#home a[href*="#"]').on('click', function(e) {
